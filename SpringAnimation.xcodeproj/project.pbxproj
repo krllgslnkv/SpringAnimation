@@ -14,7 +14,7 @@
 		C73C3540274E4525006D12A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C73C353E274E4525006D12A7 /* Main.storyboard */; };
 		C73C3542274E4526006D12A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C73C3541274E4526006D12A7 /* Assets.xcassets */; };
 		C73C3545274E4526006D12A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C73C3543274E4526006D12A7 /* LaunchScreen.storyboard */; };
-		C73C354D274E51E7006D12A7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73C354C274E51E7006D12A7 /* Model.swift */; };
+		C73C354D274E51E7006D12A7 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73C354C274E51E7006D12A7 /* Animation.swift */; };
 		C73C354F274E5494006D12A7 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73C354E274E5494006D12A7 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +29,7 @@
 		C73C3541274E4526006D12A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C73C3544274E4526006D12A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C73C3546274E4526006D12A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C73C354C274E51E7006D12A7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C73C354C274E51E7006D12A7 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		C73C354E274E5494006D12A7 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		EE415884DC8F9BCEFE51586C /* Pods-SpringAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpringAnimation.debug.xcconfig"; path = "Target Support Files/Pods-SpringAnimation/Pods-SpringAnimation.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				C73C3552274E6430006D12A7 /* Configs */,
-				C73C3553274E6448006D12A7 /* Controllers */,
+				C73C3553274E6448006D12A7 /* ViewControllers */,
 				C73C3555274E653D006D12A7 /* Views */,
 				C73C3550274E6365006D12A7 /* Models */,
 				C73C3551274E6371006D12A7 /* Services */,
@@ -89,7 +89,7 @@
 		C73C3550274E6365006D12A7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				C73C354C274E51E7006D12A7 /* Model.swift */,
+				C73C354C274E51E7006D12A7 /* Animation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -112,12 +112,12 @@
 			path = Configs;
 			sourceTree = "<group>";
 		};
-		C73C3553274E6448006D12A7 /* Controllers */ = {
+		C73C3553274E6448006D12A7 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				C73C353C274E4525006D12A7 /* ViewController.swift */,
 			);
-			path = Controllers;
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		C73C3554274E6480006D12A7 /* Resources */ = {
@@ -264,7 +264,7 @@
 				C73C354F274E5494006D12A7 /* DataManager.swift in Sources */,
 				C73C3539274E4525006D12A7 /* AppDelegate.swift in Sources */,
 				C73C353B274E4525006D12A7 /* SceneDelegate.swift in Sources */,
-				C73C354D274E51E7006D12A7 /* Model.swift in Sources */,
+				C73C354D274E51E7006D12A7 /* Animation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
